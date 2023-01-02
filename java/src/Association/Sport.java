@@ -6,4 +6,8 @@ public class Sport {
     public Sport(String sportName) {
         this.sportName = sportName;
     }
+
+    public void play(){
+        System.out.println("Playing " + this.sportName);
+    }
 }
